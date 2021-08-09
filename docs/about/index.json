@@ -1,0 +1,146 @@
+
+
+
+
+    
+        
+        
+        
+        
+        
+            
+                
+                
+                
+            
+        
+            
+                
+                
+                
+            
+        
+            
+                
+                
+                
+            
+        
+            
+                
+                
+                
+            
+        
+        
+        
+
+        
+        
+        
+        
+        
+            
+                
+                
+                
+            
+        
+            
+                
+                
+                
+            
+        
+        
+        
+
+        
+        
+            
+        
+            
+        
+
+
+        
+        
+
+    
+
+
+
+
+
+{
+  "result": {
+    "charts": {
+      "categories_data": {
+        "legend": [
+          "Demo用",
+          "雜記"
+        ],
+        "selected": {
+          "Demo用": true,
+          "雜記": true
+        },
+        "series": [
+          {
+            "name": "Demo用",
+            "value": 1
+          },
+          {
+            "name": "雜記",
+            "value": 1
+          }
+        ]
+      },
+      "monthly_count": {
+        "2020-07": 1,
+        "2020-08": 1
+      },
+      "tags_data": {
+        "legend": [
+          "Hugo",
+          "Vue.js",
+          "Vuetify",
+          "JavaScript"
+        ],
+        "selected": {
+          "Hugo": true,
+          "JavaScript": true,
+          "Vue.js": true,
+          "Vuetify": true
+        },
+        "series": [
+          {
+            "name": "Hugo",
+            "value": 2
+          },
+          {
+            "name": "Vue.js",
+            "value": 2
+          },
+          {
+            "name": "Vuetify",
+            "value": 2
+          },
+          {
+            "name": "JavaScript",
+            "value": 1
+          }
+        ]
+      }
+    },
+    "content": "\u003cp\u003e從網管入門的無頭蒼蠅，偶爾記錄自己的學習過程\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eSkills：\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eServer-side Web Framework\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eDjango\u003c/strong\u003e\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eFlask\u003c/strong\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cstrong\u003eClient-side Web Framework\u003c/strong\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003eVue.js\u003c/strong\u003e\n\u0026hellip;etc\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003c/ul\u003e\n",
+    "kind": "section",
+    "params": {
+      "draft": false,
+      "iscjklanguage": false,
+      "title": "About"
+    },
+    "permalink": "https://mikanbearer.github.io/vuego/about/index.json",
+    "type": "about",
+    "wordcount": 12
+  }
+}

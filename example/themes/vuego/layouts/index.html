@@ -1,0 +1,96 @@
+{{ define "main" }}
+<div id="app" v-cloak>
+  <v-app id="inspire">
+      <v-app-bar
+        app
+        fade-img-on-scroll
+        hide-on-scroll
+        v-model="appBar"
+        src="{{ "img/0.jpg" | absURL }}"    
+      >
+
+      <!--<v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>-->
+
+      <v-toolbar-title class="mr-12 align-center">
+        <span class="site-title">{{ .Site.Title }}</span>
+      </v-toolbar-title>
+
+      <v-spacer></v-spacer>
+
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            @click.stop="filterModal = !filterModal"
+            v-bind="attrs"
+            v-on="on"
+            icon
+          >
+            <v-icon v-if="notInFilter">mdi-filter-outline</v-icon>
+            <v-icon v-else color="error lighten-1">mdi-filter</v-icon>
+          </v-btn>
+        </template>
+        <span>Filter posts by title, category and tag</span>
+      </v-tooltip>
+  
+      <template v-slot:img="{ props }">
+        <v-img
+          v-bind="props"
+          gradient="to top right, rgba(31,49,52,.7), rgba(69,87,101,.7)"
+        ></v-img>
+      </template>
+    
+    
+      <template v-slot:extension>
+        <v-tabs align-with-title>
+          <v-tab v-if="$route.path == '/'"  to="/" :class="['v-tab--active']">Posts</v-tab>
+          <v-tab v-else to="/">Posts</v-tab>
+          <v-tab to="/works">Works</v-tab>
+          <v-tab to="/about">About</v-tab>
+        </v-tabs>
+      </template>
+    
+    </v-app-bar>
+
+    <v-main>
+      <v-container style="min-height: 100vh;">
+        <v-row no-gutters>
+          <v-col cols="12">
+          
+            <router-view></router-view>
+        
+          </v-col>
+        </v-row>
+
+        <v-row no-gutters>
+          <v-col cols="12">
+            <disqus-card :comment-block="commentBlock"></disqus-card>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-main>
+
+    <v-footer padless color="transparent">
+      <v-col
+        class="text-center text-body-2 grey--text text--lighten-1"
+        cols="12"
+      >
+        <div>
+          {{ .Date.Format "2006" }} — 
+          {{ if .Site.Author.name }}
+          {{ .Site.Author.name }}
+          {{ end }}
+        </div>
+        <div>
+          Powered by Hugo {{ hugo.Version }}
+        </div>
+      </v-col>
+    </v-footer>
+
+
+    <v-dialog v-model="filterModal" max-width="600">
+      <filter-card></filter-card>
+    </v-dialog>
+
+  </v-app>
+</div>
+{{ end }}

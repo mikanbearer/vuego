@@ -1,0 +1,34 @@
+
+
+
+
+    
+        
+    
+
+
+
+
+{
+  "result": {
+    "content": "\u003cp\u003e放置目錄為content/works，詳細請看example格式\u003c/p\u003e\n",
+    "kind": "page",
+    "params": {
+      "categories": [
+        "Demo用"
+      ],
+      "date": "2020-08-10T13:27:20+08:00",
+      "draft": false,
+      "iscjklanguage": false,
+      "lastmod": "2020-08-10T13:27:20+08:00",
+      "publishdate": "2020-08-10T13:27:20+08:00",
+      "tags": [
+        "Hugo"
+      ],
+      "title": "\"Works\"頁面可放置作品做簡易展示"
+    },
+    "permalink": "https://mikanbearer.github.io/vuego/posts/2020/202008101327/index.json",
+    "type": "posts",
+    "wordcount": 1
+  }
+}

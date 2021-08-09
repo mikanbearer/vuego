@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on 活到老學到死</title>
+    <link>https://mikanbearer.github.io/vuego/tags/Hugo/</link>
+    <description>Recent content in Hugo on 活到老學到死</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 10 Aug 2020 13:27:20 +0800</lastBuildDate><atom:link href="https://mikanbearer.github.io/vuego/tags/Hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&#34;Works&#34;頁面可放置作品做簡易展示</title>
+      <link>https://mikanbearer.github.io/vuego/posts/2020/202008101327/index.json</link>
+      <pubDate>Mon, 10 Aug 2020 13:27:20 +0800</pubDate>
+      
+      <guid>https://mikanbearer.github.io/vuego/posts/2020/202008101327/index.json</guid>
+      <description>放置目錄為content/works，詳細請看example格式</description>
+    </item>
+    
+    <item>
+      <title>為code block加上可以放檔案名稱的小記號</title>
+      <link>https://mikanbearer.github.io/vuego/posts/2020/07/202007101327/index.json</link>
+      <pubDate>Fri, 10 Jul 2020 13:27:20 +0800</pubDate>
+      
+      <guid>https://mikanbearer.github.io/vuego/posts/2020/07/202007101327/index.json</guid>
+      <description>&lt;p&gt;心血來潮修飾一下code block&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

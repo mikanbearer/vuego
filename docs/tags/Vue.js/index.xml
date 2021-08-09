@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vue.js on 活到老學到死</title>
+    <link>https://mikanbearer.github.io/vuego/tags/Vue.js/</link>
+    <description>Recent content in Vue.js on 活到老學到死</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 12 Oct 2020 08:34:19 +0800</lastBuildDate><atom:link href="https://mikanbearer.github.io/vuego/tags/Vue.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo-vue-mix</title>
+      <link>https://mikanbearer.github.io/vuego/works/vuego/index.json</link>
+      <pubDate>Mon, 12 Oct 2020 08:34:19 +0800</pubDate>
+      
+      <guid>https://mikanbearer.github.io/vuego/works/vuego/index.json</guid>
+      <description>靜態網站產生器Hugo的一個自製主題，使用Vue.js + Vuetify製作成單頁式網站提升操作流暢度，貼文等使用Hugo產生JSON靜態檔案，並使用ECharts製作簡易統計圖表紀錄個人更新動態</description>
+    </item>
+    
+    <item>
+      <title>hugo-vue-mix</title>
+      <link>https://mikanbearer.github.io/vuego/works/hugo-vue-mix/index.json</link>
+      <pubDate>Sat, 15 Aug 2020 13:12:10 +0800</pubDate>
+      
+      <guid>https://mikanbearer.github.io/vuego/works/hugo-vue-mix/index.json</guid>
+      <description>靜態網站產生器Hugo的一個自製主題，同時也為本BLOG之前前主題，使用Vue.js完成搜尋功能，UI使用Vuetify，功能大概不會增加了</description>
+    </item>
+    
+  </channel>
+</rss>
