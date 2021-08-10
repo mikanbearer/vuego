@@ -1,5 +1,5 @@
 ---
-title: "hugo-vue-mix"
+title: "vuego"
 images: [works/vuego/1.png, works/vuego/2.png, works/vuego/3.png, works/vuego/4.png]
 download_url: "https://github.com/mikanbearer/vuego"
 demo_url: "https://mikanbearer.github.io/vuego/"
