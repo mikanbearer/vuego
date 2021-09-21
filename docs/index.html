@@ -736,7 +736,7 @@
     },
 
     mounted () {
-      this.getFilterSelections('https:\/\/mikanbearer.github.io\/vuegoselections/index.json')
+      this.getFilterSelections('https:\/\/mikanbearer.github.io\/vuego\/selections/index.json')
       this.setFilterConditionsToData()
     },
 
@@ -843,13 +843,13 @@
     watch: {
       postPath (newPath, oldPath) {
         if (newPath) {
-          this.resetDISQUS('https:\/\/mikanbearer.github.io\/vuego' + newPath)
+          this.resetDISQUS('https:\/\/mikanbearer.github.io\/vuego\/' + newPath)
         }
       }
     },
 
     mounted () {
-      this.initDISQUS('https:\/\/mikanbearer.github.io\/vuego' + this.postPath)
+      this.initDISQUS('https:\/\/mikanbearer.github.io\/vuego\/' + this.postPath)
     },
 
     methods: {
@@ -945,7 +945,7 @@
     },
 
     created () {
-      axios.get('https:\/\/mikanbearer.github.io\/vuegoabout/index.json').then(response => {
+      axios.get('https:\/\/mikanbearer.github.io\/vuego\/about/index.json').then(response => {
           setTimeout(() => {
             this.content = response.data.result.content
             let charts = response.data.result.charts
@@ -1064,7 +1064,7 @@
     },
 
     created () {
-      axios.get('https:\/\/mikanbearer.github.io\/vuegoworks/index.json').then(response => {
+      axios.get('https:\/\/mikanbearer.github.io\/vuego\/works/index.json').then(response => {
           setTimeout(() => {this.works = response.data.result.pages}, 300)
       })
     },
@@ -1084,7 +1084,7 @@
     },
 
     mounted () {
-      let postUrl = 'https:\/\/mikanbearer.github.io\/vuego' + this.path + '/index.json'
+      let postUrl = 'https:\/\/mikanbearer.github.io\/vuego\/' + this.path + '/index.json'
       this.getPost(postUrl)
       
     },
@@ -1203,7 +1203,7 @@
     },
 
     mounted () {
-      this.getPostList('https:\/\/mikanbearer.github.io\/vuegoposts/index.json')
+      this.getPostList('https:\/\/mikanbearer.github.io\/vuego\/posts/index.json')
     },
 
     watch: {

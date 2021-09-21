@@ -1,4 +1,4 @@
-baseURL = "https://mikanbearer.github.io/vuego"
+baseURL = "https://mikanbearer.github.io/vuego/"
 title = "活到老學到死"
 theme = "vuego"
 metaDataFormat = "yaml"
